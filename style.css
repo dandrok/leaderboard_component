@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f2f3f7;
+  color: #0e1225;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10vh;
+}
+
+.container .box {
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.header__title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.header__buttons .button_top {
+  width: auto;
+  height: 40px;
+  background-color: #f2f3f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.25rem;
+  border-radius: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0.25rem;
+  border: solid 1px #e6e6e6;
+}
+
+.header__buttons .button_top .button_on, .header__buttons .button_top .button_off {
+  padding: 2px;
+  border-radius: 30px;
+  height: 2.12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.75rem;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 0px #b3b3b3;
+          box-shadow: 0px 0px 4px 0px #b3b3b3;
+  font-weight: 500;
+}
+
+.header__buttons .button_top .button_on p, .header__buttons .button_top .button_off p {
+  padding: 2px;
+}
+
+.header__buttons .button_top .button_on:active, .header__buttons .button_top .button_off:active {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 0px #b3b3b3;
+          box-shadow: 0px 0px 4px 0px #b3b3b3;
+}
+
+.header__buttons .button_top .button_on:hover, .header__buttons .button_top .button_off:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 0px #b3b3b3;
+          box-shadow: 0px 0px 4px 0px #b3b3b3;
+}
+
+.header__buttons .button_top .button_on:target, .header__buttons .button_top .button_off:target {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 0px #b3b3b3;
+          box-shadow: 0px 0px 4px 0px #b3b3b3;
+}
+
+.header__buttons .button_top .button_off {
+  background-color: #f2f3f7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-weight: 400;
+}
+
+.box__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box__main:hover {
+  background-color: #fbfbfb;
+}
+
+.box__main .main__first {
+  border: solid 1px #e6e6e6;
+  border-radius: 30px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.box__main .main__first div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+}
+
+.box__main .main__first div img {
+  height: 36px;
+  width: 36px;
+}
+
+.box__main .main__first div p {
+  font-size: 1.75rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+.box__main .main__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1rem;
+  width: 10rem;
+}
+
+.box__main .main__second div h3 {
+  font-size: 1rem;
+}
+
+.box__main .main__second div p {
+  font-size: 0.75rem;
+}
+
+.box__main .main__third img {
+  border-radius: 0.5rem;
+  max-height: 50px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.box__footer .footer__button {
+  background-color: #0e1225;
+  width: 160px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.box__footer .footer__button p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.box__footer .footer__button:hover {
+  background-color: #1c244a;
+}
+/*# sourceMappingURL=style.css.map */
